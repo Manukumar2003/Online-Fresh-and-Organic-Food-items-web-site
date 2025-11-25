@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbarContainer {
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  display: flex;
+  
+}
+
+.navbarContainer .logoBlock {
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarContainer .logoBlock img {
+  height: 60px;
+  width: 100px;
+  border-radius: 20px;
+}
+.navbarContainer .menuBlock {
+  height: 70px;
+  flex-basis: 85%;
+}
+.navbarContainer .menuBlock ul {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+.navbarContainer .menuBlock ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 19px;
+  transition-duration: 350ms;
+  transition-timing-function: ease-in-out;
+  transition-property: all;
+}
+.navbarContainer .menuBlock ul li a:hover {
+  border-bottom: 2px solid aliceblue;
+  font-size: 21px;
+}
+
+marquee {
+  background-color: #e69a1624;
+  color: rgb(255, 0, 0);
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Footer CSS Starts Here */
+.footerContainer {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  position:fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Footer CSS Ends Here */
+
+/* Header Container CSS Starts Here */
+.headerContainer {
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerContainer aside {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headerContainer h2 {
+  color: gainsboro;
+}
+.headerContainer aside a {
+  color: black;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.headerContainer aside a:hover {
+  border-bottom: 2px solid aliceblue;
+}
+
+/* Header Container CSS Ends Here */
+
+/* Main Section Container CSS Starts Here */
+
+.mainSectionContainer {
+  text-align: center;
+  background-image: url(./4ca28d_f4b79c304118445d9bdc878a8c5ec936~mv2.webp);
+  background-position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 60px;
+  height:600px;
+}
+
+.mainSectionContainer h2{
+  margin-top: 50px;
+  color: aliceblue;
+  text-shadow: 2px 2px 20px #000000;
+}
+
+.mainSectionContainer p1{
+  color: aliceblue;
+  text-shadow: 2px 2px 20px #000000;
+  background-color: #0000004a;
+  font-size: 17px;
+}
+
+.mainSectionContainer a {
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  background-color: #00b09bd2;
+  border-radius: 20px;
+  text-shadow: 2px 2px 20px #000000;
+  text-decoration: none;
+  color: aliceblue;
+  transition: all 1s ease;
+}
+
+.mainSectionContainer a:hover {
+  transform: scale(1.1, 1.1);
+}
+
+        
+  
+
+/* Main Section Container CSS Ends Here */
+
+/* Basic Products Container Starts Here */
+
+.products {
+  background-color: rgba(240, 248, 255, 0.895);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  width: 100%;
+}
+.products .productsItem {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 1s ease;
+}
+.products .productsItem:hover {
+  transform: scale(1.1, 1.1);
+}
+.products .productsItem img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+/* Basic Products Container Ends Here */

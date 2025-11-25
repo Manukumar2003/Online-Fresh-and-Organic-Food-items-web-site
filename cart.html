@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart page</title>
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+        <!-- Header Container -->
+
+    <header class="headerContainer">
+      <h2>Fresh & Organic</h2>
+      <aside>
+        <a href="./HomeAfterLogin.html">Homepage</a>
+        <a href="./Products.html">Products</a>
+        <a href="./cart.html">Cart🛒 [<span id="cartTotal">0</span>]</a>
+      </aside>
+    </header>
+    <!-- cart items container  -->
+
+    <section class="cartMainContainer">
+        <h2>Your Shopping Items</h2>
+        <aside id="cartItems"></aside>
+    </section>
+    <br>
+
+    <!-- cart Total Bill Summary -->
+     <aside class="cartSummary">
+        <h2 id="totalBill">Total Bill</h2>
+        <button id="checkout" src="cartSummary">Check Out</button>
+        <button id="clearCart" name="clearCart">Clear cart</button>
+     </aside>
+     <br>
+     
+        <!-- Footer Container//  -->
+    <footer class="footerContainer">
+        <p>&copy; 2025 Vegetable Shop. All rights reserved.</p>
+    </footer>
+</body>
+<script src="./Script.js"></script>
+</html>
